@@ -1,11 +1,10 @@
-# IMPORTING THE DATA AND DETERMINING SETTINGS
-# import math
-# import streamlit as st
-# import pandas as pd
-# import numpy as np
-# import matplotlib.pyplot as plt
-# import statistics as stat
-from operator import itemgetter
+import math
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import statistics as stat
+import plotly.express as px
 from GraphMaker import *
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
